@@ -1,0 +1,11 @@
+(\n) é um comando interno que serve para pular uma linha
+(//) é uma linha de comentário
+(/*) comentar mais de uma linha de código
+(,) contatenar dois valores
+
+Algoritimo: sequência lógica para chegar em uma solução
+Variável: temporária e dinâmica
+Constantes: dados estáticos inalteráveis
+
+Enquanto e Faça Enquanto:
+O primeiro testa e depois executa, enquanto o outro executa e depois testa
