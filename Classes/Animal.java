@@ -1,17 +1,15 @@
 package Exercícios;
 
-public class Animal {
+public abstract class Animal {
 	
-	private String nome;
-	private String idade;
-	private String som;
+	protected String nome;
+	protected int idade;
 	
-	public Animal(String nome, String idade,String som)
+	public Animal(String nome, int idade)
 	{
 		super();
 		this.nome = nome;
 		this.idade= idade;
-		this.som = som;
 	}
 
 	public String getNome() {
@@ -22,19 +20,11 @@ public class Animal {
 		this.nome = nome;
 	}
 
-	public String getIdade() {
+	public int getIdade() {
 		return idade;
 	}
 
-	public void setIdade(String idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
-	}
-
-	public String getSom() {
-		return som;
-	}
-
-	public void setSom(String som) {
-		this.som = som;
 	}
 }

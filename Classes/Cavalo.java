@@ -2,19 +2,14 @@ package Exercícios;
 
 public class Cavalo extends Animal{
 	
-	private String correr;
-	
-	public Cavalo(String nome, String idade, String som, String correr)
+	public Cavalo(String nome, int idade)
 	{
-		super(nome, idade, som);
-		this.correr = correr;
+		super(nome, idade);
 	}
-
-	public String getCorrer() {
-		return correr;
+	public void acao() {
+		System.out.println("\nO cavalo está correndo");
 	}
-
-	public void setCorrer(String correr) {
-		this.correr = correr;
+	public void som() {
+		System.out.println("\nHiin in in hinir");
 	}
 }

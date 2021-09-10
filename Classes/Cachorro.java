@@ -1,20 +1,15 @@
 package Exercícios;
 
 public class Cachorro extends Animal{
-
-	private String correr;
 	
-	public Cachorro(String nome, String idade, String som, String correr)
+	public Cachorro(String nome, int idade)
 	{
-		super(nome, idade, som);
-		this.correr = correr;
+		super(nome, idade);
 	}
-
-	public String getCorrer() {
-		return correr;
+	public void acao() {
+		System.out.println("\nO cachorro está correndo");
 	}
-
-	public void setCorrer(String correr) {
-		this.correr = correr;
+	public void som() {
+		System.out.println("\nAU AU AU");
 	}
 }
