@@ -22,7 +22,7 @@ public class Categoria {
 	private long id;
 	
 	@NotNull(message = "Tipo é obrigatório!")
-	@Size(min = 5)
+	@Size(min = 1)
 	private String tipo;
 	
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
