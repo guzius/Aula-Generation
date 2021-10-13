@@ -1,5 +1,6 @@
 package br.org.generation.blogpessoal.model;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Set;
@@ -52,7 +53,7 @@ public class UsuarioTest {
 		Set<ConstraintViolation<Usuario>> violacao = validator.validate(usuarioErro);
 		System.out.println(violacao.toString());
 
-		assertTrue(violacao.isEmpty());
+		assertFalse(violacao.isEmpty());
 	}
 
 }
